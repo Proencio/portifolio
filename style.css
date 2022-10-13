@@ -1,0 +1,114 @@
+body {
+    background: #F5F5F5;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    color: #464646;
+}
+
+
+/******** CABEÇALHO *********/
+.review {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+p {
+    font-weight: 500;
+}
+
+p img {
+    width: 16px;
+}
+
+.img-principal {
+    border-radius: 10%;
+    width: 268px;
+    height: 268px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+nav a {
+    margin-left: 15px;
+    color: #464646;
+    text-decoration: none;
+}
+
+h1 {
+    color: #464646;
+    font-size: 42px;
+    /* font-weight: 500; */
+}
+
+/*****************************/
+
+
+
+/************** MUNU ***********/
+.sub-menu a img {
+    margin-left: 5px;
+}
+
+.sub-menu a {
+    margin-right: 25px;
+    color: #464646;
+    text-decoration: none;
+}
+
+.sub-menu {
+    color: #464646;
+    font-size: 18px;
+}
+/*******************************/
+
+
+/************* SOBRE ***********/
+.sobre-body {
+    background: #EAF2FD;
+    margin-top: 60px;
+}
+
+.body-center {
+    width: 57%;
+    margin-left: 130px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.sobre {
+    color: #464646;
+    font-weight: 400;
+}
+/*******************************/
+
+
+h2 {
+    text-align: center;
+    color: #464646;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    color: #464646;
+    font-weight: 500;
+    font-size: 14px;
+}

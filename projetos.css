@@ -1,0 +1,73 @@
+
+/************************* INICIO PROJETOS ********************/
+
+.body-projetos {
+    background: #F5F5F5;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.body-projetos  h2 {
+    margin-bottom: 40px;
+}
+
+.body-card-projetos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.card-img {
+    width: 70%;
+}
+
+.card-img img {
+    width: 100%; filter:drop-shadow(2px 2px 2px gray);
+}
+
+.card-text-right {
+    padding-right: 26px;
+    align-self: center;
+    width: 30%;
+}
+
+.card-text-left {
+    padding-left: 26px; 
+    align-self: center;
+    width: 30%;
+}
+
+.p-text {
+    color: #464646;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.p-text-2 {
+    color: #464646;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0px;
+}
+
+.bnt-repositorio {
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    background: transparent;
+    width: 116px;
+    height: 51px;
+}
+
+.bnt-demo {
+    color: #ffffff;
+    border: 1px solid #2A7AE4;
+    background: #2A7AE4;
+    width: 116px; 
+    height: 51px;
+    margin-left: 10px;
+}
+
+/************************ FIM PROJETOS ************************/

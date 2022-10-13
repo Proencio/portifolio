@@ -1,0 +1,33 @@
+
+/********************** skills and hobbies ****************/
+
+.card-itens {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.card-skills {
+    background: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.card-skills div {
+    padding-left: 15px;
+}
+
+.card-skills p {
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+/*********************** skills ********************/

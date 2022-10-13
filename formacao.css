@@ -1,0 +1,41 @@
+
+/* ************************ INICIO FORMAÇÃO ****************** */
+
+.formacao-body {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.card-formacao {
+    width: 268px;
+    margin-right: 20px;
+}
+
+.card-img-formacao {
+    background: #ffffff;
+    width: 268px;
+    height: 168px;
+    display: flex;
+	justify-content: center;
+}
+
+.card-img-formacao img {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.instuicao-formacao {
+    font-size: 18px;
+    color: #464646;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.ano-formacao {
+    font-size: 14px;
+    color: #464646;
+    font-weight: 500;
+    line-height: 0px;
+}
+/************************* FIM FORMAÇÃO  ************************/
