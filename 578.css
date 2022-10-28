@@ -1,0 +1,80 @@
+@media (max-width: 578px) {
+
+    header div {
+        width: 95%;
+    }
+
+    .review {
+        width: 95%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #sobre {
+        display: none;
+    }
+
+	#skills {
+        display: none;
+    }
+
+	#hobbies {
+        display: none;
+    }
+
+	#formacao {
+        display: none;
+    }
+
+	#projetos {
+        display: none;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    #nome {
+        font-size: 15px;
+    }
+
+    .review {
+       flex-direction: column-reverse;
+       width: 95%;
+    }
+
+    .review div {
+        width: 95% !important;
+    }
+
+    .sub-menu {
+        font-size: 12px;
+    }
+
+    .sub-menu img {
+        font-size: 12px;
+        width: 10px;
+    }
+
+    .sub-menu a {
+        margin-right: 10px;
+    }
+
+    .sub-menu a img {
+        margin-left: 3px;
+    }
+    
+
+    
+    /* .card-skills div {
+        padding-left: 10px;
+    }
+    
+    .card-skills p {
+        color: #464646;
+        font-weight: 700;
+        font-size: 12px;
+    } */
+}

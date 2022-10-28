@@ -1,0 +1,162 @@
+
+@media (max-width: 970px) {
+
+    header div {
+        width: 90%;
+    }
+
+    .review {
+        width: 90%;
+    }
+
+    /**************** SOBRE *************/
+    .img-principal {
+        border-radius: 10%;
+        width: 146px;
+        height: 146px;
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin-top: 0PX;
+        color: #464646;
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .sub-menu {
+        color: #464646;
+        font-size: 16px;
+    }
+
+    .sobre-body {
+        display: flex;
+        justify-content: center;
+    }    
+
+    .body-center {
+        width: 90%;
+        margin-left: 0px;
+        text-align: start;
+    }
+
+    .body-center h2 {
+        text-align: start;
+    }
+
+    .sobre {
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    /************************************/
+
+
+    /*************** SKILLS **************/
+
+    .card-skills {
+        width: 200px;
+        height: 118px;
+    }
+
+    .card-skills p {
+        font-size: 15px;
+    }
+
+    /************************************/
+
+
+    /************** FORMAÇÃO *************/
+
+    .card-formacao {
+        width: 200px;
+    }
+
+    .card-itens {
+        width: 90%;
+    }
+
+    .card-img-formacao {
+        width: 200px;
+        height: 118px;
+    }
+
+    .instuicao-formacao {
+        font-size: 15px;
+    }
+
+    .ano-formacao {
+        font-size: 12px;
+    }
+
+    .formacao-body {
+        padding-bottom: 0px;
+    }
+    
+    /*************************************/
+
+    /*************** projetos ***************/
+    .body-projetos  h2 {
+        margin-top: 0px;
+        width: 90%;
+    }
+
+    .body-card-projetos {
+        display: block;
+        /* justify-content: center; */
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+    .card-img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .card-text-left {
+        padding-left: 0px; 
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    .card-text-right {
+        padding-left: 0px; 
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    #right-projeto {
+        -webkit-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+    #img-tablet {
+        display: inline-block;
+    }
+
+    #img-not {
+        display: none;
+    }
+    
+    /***************************************/
+
+
+    /************** contato ***************/
+    .card-img {
+        display: none;
+    }
+
+    .card-contato {
+        width: 90%;
+    }
+
+    .contato-text {
+        padding-left: 0px;
+    }
+    /**************************************/
+
+}

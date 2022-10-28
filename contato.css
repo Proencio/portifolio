@@ -15,12 +15,18 @@
     display: flex;
     justify-content: center;
     width: 80%;
+    max-height: 500px;
 }
 
 .card-img {
-    width: 60%;
+    width: 50%;
+    max-width: 464px;
     display: flex;
     justify-content: flex-end;
+}
+
+.contato-text {
+    padding-left: 26px;
 }
 
 .card-contato div img {
@@ -53,6 +59,7 @@
 .card-form {
     display: block;
     width: 100%;
+    max-width: 600px;
 }
 
 input {

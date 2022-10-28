@@ -23,6 +23,10 @@
     width: 70%;
 }
 
+#img-tablet {
+    display: none;
+}
+
 .card-img img {
     width: 100%; filter:drop-shadow(2px 2px 2px gray);
 }
@@ -67,7 +71,6 @@
     background: #2A7AE4;
     width: 116px; 
     height: 51px;
-    margin-left: 10px;
 }
 
 /************************ FIM PROJETOS ************************/

@@ -12,20 +12,34 @@
 	<link rel="stylesheet" href="projetos.css">
 	<link rel="stylesheet" href="formacao.css">
 	<link rel="stylesheet" href="skills-hobbies.css">
+	<link rel="stylesheet" href="998px.css">
+	<link rel="stylesheet" href="578.css">
 </head>
 <body>
 	<header>
 		<div>
-			<p><img src="assets/image/star.png" alt="icon star"> John Proencio</p>
+			<p id="nome"><img src="assets/image/star.png" alt="icon star"> John Proencio</p>
+
+			<!-- <nav>
+				<a href="#sobre-mim" id="sobre">Sobre mim</a>
+				<a href="#skills" id="skills-body">Skills</a>
+				<a href="#hobbies-body" id="hobbies-body">Hobbies</a>
+				<a href="#formacao" id="formacao">Formação</a>
+				<a href="#projetos" id="projetos">Projetos</a>
+				<a href="#contato" style="font-weight: 500;">johnproencio@hotmail.com</a>
+			</nav> -->
 
 			<nav>
-				<a href="#sobre-mim">Sobre mim</a>
-				<a href="#skills">Skills</a>
-				<a href="#hobbies">Hobbies</a>
-				<a href="#formacao">Formação</a>
-				<a href="#projetos">Projetos</a>
+				<a href="#sobre-mim" id="sobre">Sobre mim</a>
+				<a href="#skills-body" id="skills">Skills</a>
+				<a href="#hobbies-body" id="hobbies">Hobbies</a>
+				<a href="#formacao-body" id="formacao">Formação</a>
+				<a href="#projetos-body" id="projetos">Projetos</a>
 				<a href="#contato" style="font-weight: 500;">johnproencio@hotmail.com</a>
 			</nav>
+
+
+
 		</div>
 	</header>
 	
@@ -39,7 +53,7 @@
 						<a href="https://github.com/Proencio" target="_blank">Github <img src="assets/image/seta.png" alt="seta-icon"></a>
 						<a href="https://www.linkedin.com/in/johnproencio/" target="_blank">Linkedin <img src="assets/image/seta.png" alt="seta-icon"></a>
 						<a href="https://www.instagram.com/john_proencio/" target="_blank">Instagram <img src="assets/image/seta.png" alt="seta-icon"></a>
-						<a>Currículo <img src="assets/image/seta.png" alt="seta-icon"></a>
+						<a href="https://drive.google.com/file/d/10FGbqKEKQq9B2mu2P3I2yz2Yko4-zVpj/view?usp=sharing" target="_blank">Currículo <img src="assets/image/seta.png" alt="seta-icon"></a>
 					</div>
 				</div>
 				
@@ -66,7 +80,7 @@
 			</div>
 		</section>
 
-		<section id="skills">
+		<section id="skills-body">
 			<h2 style="margin-top: 60px;">Skills</h2>
 
 			<div class="card-itens">
@@ -122,7 +136,7 @@
 			</div>
 		</section>
 
-		<section id="hobbies">
+		<section id="hobbies-body">
 			<h2 style="margin-top: 60px;">Hobbies</h3>
 
 			<div class="card-itens">
@@ -157,7 +171,7 @@
 			</div>
 		</section>
 
-		<section id="formacao">			
+		<section id="formacao-body">			
 			<div class="formacao-body">
 				<h2>Formação Acadêmica</h2>
 				<div class="card-itens">
@@ -188,7 +202,7 @@
 			</div>
 		</section>
 
-		<section id="projetos">
+		<section id="projetos-body">
 			<div class="body-projetos">  
 				<h2>Projetos</h2>
 				<div class="body-card-projetos">
@@ -207,6 +221,10 @@
 
 
 				<div class="body-card-projetos">
+					<div class="card-img" id="img-tablet">
+						<img src="assets/projetos/forca.png">
+					</div>
+
 					<div class="card-text-right">
 						<p class="p-text">Jogo criado com HTML, CSS e JavaScript</p>
 						<p class="p-text-2">Challenge Oracle</p>
@@ -215,7 +233,7 @@
 						<button onclick="redirectPage('https://proencio.github.io/Challenge-Oracle-ONE-Jogo-da-Forca/')" class="bnt-demo">Ver demo</button>
 						
 					</div>
-					<div class="card-img">
+					<div class="card-img" id="img-not">
 						<img src="assets/projetos/forca.png">
 					</div>
 				</div>
@@ -244,7 +262,7 @@
 						<img src="assets/image/fone.png">
 					</div>
 
-					<div style="padding-left: 26px;">
+					<div class="contato-text">
 						<p class="p1">Contato</p>
 						<p class="p2">Quer entrar em contato comigo?</p>
 						<p class="p3">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
